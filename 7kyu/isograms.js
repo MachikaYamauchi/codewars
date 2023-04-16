@@ -17,7 +17,7 @@ function isIsogram(str){
             if(words_lowercase[i] === words_lowercase[j]) {
                 return false
             }
-            return true;
         }
     }
+    return true
 }
